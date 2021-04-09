@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(180, 180, 180);
+}
+
+div {
+    width: 595px;
+    height: 842px;
+    background-color: white;
+    margin: 20px auto;
+}
+
+h1,
+h4 {
+    text-align: center;
+}
+
+h3,
+p {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
