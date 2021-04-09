@@ -27,3 +27,8 @@ div {
     margin: 20px auto;
     border-radius: 20px;
 }
+
+img {
+    display: block;
+    margin: auto;
+}
