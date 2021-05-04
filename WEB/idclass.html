@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID & Class</title>
+</head>
+<body>
+    <h1>ID & CLASS</h1>
+
+    <div id="exemplo01">EXEMPLO 01
+        <div id="quadrado">quadrado</div>
+
+        
+        <div class="redondo" >1</div>
+        <div class="redondo" id="quadradoverde">quadrado verde</div>
+        <div class="redondo">2</div>
+    
+    </div>
+
+    <br>
+    <br>
+
+    <div id="exemplo02">
+
+        <div class="quadradinho" id="quadradinhodiferente">1</div>
+        <div class="quadradinho" >2</div>
+        <div class="quadradinho">3</div>
+        <div class="quadradinho">4</div>
+        <div class="quadradinho">5</div>
+        <div class="quadradinho" id="quadradinhodiferente">6</div>
+        <div class="quadradinho">7</div>
+
+    </div>
+</body>
+
+<style>
+    #exemplo01{
+        background-color: rgb(245, 208, 245);
+        height: 800px;
+    }
+
+    #exemplo02{
+        background-color: rgb(232, 245, 208);
+        height: 800px;
+    }
+
+    #quadrado{
+        background-color: crimson;
+        width: 200px;
+        height: 200px;
+    }
+
+    #quadradoverde {
+        background-color: rgb(20, 220, 47);
+        width: 300px;
+        height: 300px;
+        float: none;
+        border-radius: 0;
+    }
+
+    .redondo{
+        background-color: rgb(20, 130, 220);
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        float: right;
+    }
+
+    .quadradinho {
+        background-color: gold;
+        width: 150px;
+        height: 150px;
+        float: left;
+        margin: 0 20px 0 0;
+    }
+
+    #quadradinhodiferente {
+        background-color: hotpink;
+        margin-right: 0;
+    }
+
+</style>
+</html>
